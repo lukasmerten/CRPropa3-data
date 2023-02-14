@@ -16,7 +16,7 @@ def synchrotron_spectrum(xval):
     for x = E_gamma / E_critical, where E_critical = hbar * 3/2 * c/rho * (E/(mc**2))**2
     E_gamma : Energy of synchrotron photon
     E       : Energy of particle
-    rho     : gyroradius 
+    rho     : gyroradius of the thermal particles mc**2 / q / B
 
     Returns : 
       The cumulative synchrotron function
